@@ -1,0 +1,12 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  mvc:
+    view:
+      prefix: /WEB_INF/view/
+      suffix: .jsp
+
+logging:
+  level:
+     '[com.example.demo]': DEBUG
